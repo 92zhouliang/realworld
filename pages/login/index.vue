@@ -7,8 +7,8 @@
         <h1 class="text-xs-center">{{ isLogin?'Sign in':'Sign up' }}</h1>
         <p class="text-xs-center">
           <!-- <a href="">Have an account?</a> -->
-          <nuxt-link v-if="isLogin" to="/register">Need an account</nuxt-link>
-          <nuxt-link v-else to="/login">Have an account</nuxt-link>
+          <nuxt-link v-if="isLogin" to="/register">Need an account?</nuxt-link>
+          <nuxt-link v-else to="/login">Have an account?</nuxt-link>
         </p>
 
         <ul class="error-messages">
