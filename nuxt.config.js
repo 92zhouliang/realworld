@@ -60,5 +60,5 @@ module.exports={
             ])
           }
     },
-    plugins: ['~plugins/request','~plugins/dayjs']
+    plugins: ['~plugins/request.js','~plugins/dayjs.js']
 }
