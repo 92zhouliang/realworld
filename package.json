@@ -1,0 +1,26 @@
+{
+  "name": "fed-task-e-03-03",
+  "version": "1.0.0",
+  "description": "{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt",
+    "build":"nuxt build",
+    "start":"nuxt start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/capefool/fed-task-e-03-03.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cookieparser": "^0.1.0",
+    "dayjs": "^1.9.4",
+    "js-cookie": "^2.2.1",
+    "markdown-it": "^12.0.2",
+    "nuxt": "^2.14.7"
+  }
+}
